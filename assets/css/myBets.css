@@ -13,7 +13,39 @@
 {
     outline: none;
     border: none;
+    width: 90px;
+    position: relative;
+    left: 850px;
+    top: -40px;
+    border-radius: 5px;
 }
+.deletebts{
+    color: white;
+    background-color: #303A46;
+    padding: 10px 25px; 
+    border: none;
+    position: absolute;
+    bottom: 170px;
+    right: 120px;
+    border-radius: 5px;
+}
+.deletebts:hover{
+    color: #209ED1;
+}
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+
+.pagination a:hover:not(.active) {background-color: black;}
+
 
 
 

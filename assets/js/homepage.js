@@ -11,6 +11,8 @@ const emptyCart = document.querySelector('.emptyCart');
 const selectOptions = document.querySelector('.selectOptions');
 const col2 = document.querySelector('.column2');
 const col3 = document.querySelector('.column3');
+// const col5 = document.querySelector('.column5');
+// const selectTeam = document.querySelector('.btn1');
 const cartWrapper = document.querySelector('.cartWrapper');
 const cartBackdrop = document.querySelector('.cartBackdrop');
 const noticeCancelBtn = document.querySelector('.noticeCancel');
@@ -28,6 +30,8 @@ const changeInfoBtn = document.querySelector('.changeBtn')
 const myBetsBtn = document.querySelector('.myBetsBtn')
 const customerToggleBtn = document.querySelector('.customerBtn')
 const slipCancel = document.querySelector('.slipCancel')
+const slipCancel1 = document.querySelector('.slipCancel1')
+
 
 
 
@@ -781,6 +785,21 @@ cartWrapper.addEventListener('click', function() {
     })
 
 })
+// selectTeam.addEventListener('click', function() {
+//     cartBackdrop.style.display = 'flex'
+//     col5.style.display = 'flex'
+//     col5.style.zIndex = 3
+//     const selectTeam = document.querySelector('.selectTeam')
+//     selectTeam.classList.add('.selectTeamActive')
+
+
+//     slipCancel1.addEventListener('click', () => {
+//         cartBackdrop.style.display = 'none'
+//         col5.style.display = ''
+//         col5.style.zIndex = 1
+//     })
+
+// })
 
 
 cartBackdrop.addEventListener('click', function() {

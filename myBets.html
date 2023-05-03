@@ -140,9 +140,6 @@
                             <li><a class="dropdown-item customDropper py-2" href="#">Something else here</a></li> -->
                             </ul>
                         </li>
-
-
-
                     </ul>
                 </div>
             </div>
@@ -152,8 +149,6 @@
     <div class="HistoryWrap">
 
         <div class="container mx-auto tab-trot-container">
-
-
             <div class="table-responsive ">
                 <table class="table table-bordered">
                     <thead>
@@ -170,65 +165,87 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>2023-03-08 23:57:22</td>
+                            <td style="color: gray;">2023-03-08 23:57:22</td>
                             <td>Win</td>
                             <td>Premier League</td>
-                            <td>Arsenal</td>
+                            <td class="col-3" style="background-color: #EFCA00; color: black;">Arsenal</td>
                             <td>-0.5</td>
                             <td>Manchester United</td>
                             <td>1-2</td>
-                            <td>Lost</td>
+                            <td style="color: gray;">Lost</td>
                         </tr>
                         <tr>
-                            <td>2023-03-08 20:12:05</td>
+                            <td style="color: gray;">2023-03-08 20:12:05</td>
                             <td>Draw</td>
                             <td>La Liga</td>
-                            <td>Real Madrid</td>
+                            <td style="width: 20%; background-color: #EFCA00; color: black;">Real Madrid</td>
                             <td>0</td>
                             <td>Barcelona</td>
-                            <td>2-2</td>
-                            <td>Won</td>
+                            <td style="background-color: #EFCA00; color: black;">2-2</td>
+                            <td style="color: gray;">Won</td>
                         </tr>
                         <tr>
-                            <td>2023-03-07 18:25:40</td>
+                            <td style="color: gray;">2023-03-07 18:25:40</td>
                             <td>Handicap</td>
                             <td>Serie A</td>
                             <td>Juventus</td>
                             <td>-1.5</td>
                             <td>AC Milan</td>
-                            <td>3-1</td>
-                            <td>Won</td>
+                            <td style="background-color: #EFCA00; color: black;">3-1</td>
+                            <td style="color: gray;">Won</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div class="row">
-                <div class="col-6" style="font-size: small;">
-                    <p>Bet Time : 2023-03-08 23:57:22</p>
-                    <p>Amount : 1,000</p>
-                    <p>Ratio : 15.36</p>
-                    <p>Win Prediction Amount : 15,360</p>
-                    <p>Win Ratio : 0</p>
-                    <p>Win Amount : 0</p>
-                    <p>Status : PROCEED</p>
+                <div class="col-12" style="font-size: small; display: flex;">
+                    <p><span style="color: gray;">Bet Time</span>: 2023-03-08 23:57:22</p>
+                    <p style="color:#1A96CD;">  <span style="color: gray;">Amount</span>: 1,000</p>
+                    <p style="color: #1A96CD;"> <span style="color: gray;">Ratio</span>: 15.36</p>
+                    <p style="color: #1A96CD;"> <span style="color: gray;">Win Prediction Amount</span>  : 15.360</p>
+                    <p style="color: #1A96CD;"> <span style="color: gray;">Win Ratio</span>  0</p>
+                    <p style="color: #EFCA00;"> <span style="color: gray;">Win Amount</span>  0</p>
+                    <p style="color: gray;">Status : PROCEED</p>
                 </div>
-                <div class="col-2">
+                <div class="col-1">
                     <button type="button" class=" impBtns btbt">Cancel Bet</button>
 
                 </div>
-                <div class="col-2">
+                <div class="col-1">
 
                     <button type="button" class="impBtns btbt">Add Board</button>
 
                 </div>
-                <div class="col-2">
+                <div class="col-1">
 
                     <button type="button" class="impBtns btbt">Add CS</button>
                 </div>
             </div>
+             <button class="deletebts">Delete All Bets</button>
         </div>
 
     </div>
+
+
+
+<!-- <h2>Active and Hoverable Pagination</h2> -->
+
+<!-- <p>Move the mouse over the numbers.</p> -->
+
+<div class="pagination" style="margin-left: 100px; margin-top: 10px; ">
+  <a href="#" style="color: white;">&laquo;</a>
+  <a href="#" style="color: white;">1</a>
+  <a class="active" href="#" style="background-color: #EFCA00; color: black;">2</a>
+  <a href="#" style="color: white;">3</a>
+  <a href="#" style="color: white;">4</a>
+  <a href="#" style="color: white;">5</a>
+  <a href="#" style="color: white;">6</a>
+  <a href="#" style="color: white;">&raquo;</a>
+</div>
+
+
+
+
     <div class="bodyWrapper">
         <!-- <div class="my-backdrop"></div> -->
 
@@ -414,7 +431,6 @@
                             <div class="noticeBtn">Submit</div>
                         </div>
                     </div>
-
 
                 </div>
 
@@ -636,7 +652,6 @@
 
 
 
-
         </div>
         <div class="column4">
 
@@ -714,8 +729,6 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-
     <script src="assets/js/homepage.js"></script>
 </body>
-
 </html>

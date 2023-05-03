@@ -786,9 +786,9 @@ function renderSidebar(leagueIndx, gameIndx) {
     
     
             </div>
-        
        
             `
+
         const extraOddsContainer = document.querySelector('.extraOddsContainer');
 
         //remove this comment

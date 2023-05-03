@@ -1680,6 +1680,7 @@ height: 200px; */
     flex-grow: 1;
     justify-content: center;
     display: flex;
+    padding-right: 18px;
 }
 
 .hd1s {

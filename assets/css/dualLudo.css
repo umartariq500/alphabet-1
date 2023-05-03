@@ -678,7 +678,8 @@ height: 200px; */
     left: 0;
     background-color: #16bdf9;
     padding: 10px;
-    display: none;
+    /* display: none; */
+    display: block;
     width: 35px;
     cursor: pointer;
 }
