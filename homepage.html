@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="assets/css/overall.css">
     <link rel="stylesheet" href="assets/css/pagination.css">
     <link rel="stylesheet" href="assets/css/messages.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
     <title>Homepage</title>
 </head>
 
@@ -438,10 +436,29 @@
 
                         </div>
                         <div class="depositeBtn2">
-                            <div class="submitReportBtn">Write</div>
+                            <div class="submitReportBtn" style="width: 50px; height: 40px; display: flex; justify-content: center; align-items: center; margin-top: 10px;">Write</div>
+                               <nav aria-label="Page navigation example" >
+                                <ul class="pagination" style="background-color: #1f262f;">
+                                  <li class="page-item" style="background-color: #1f262f;">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                      <span aria-hidden="true" style="color: #1f262f; font-size: 18px;">&laquo;</span>
+                                      <!-- <span class="sr-only" style="color: #1f262f;">Previous</span> -->
+                                    </a>
+                                  </li>
+                                  <li class="page-item"><a class="page-link" href="#" style="background-color: #394552; font-size: 18px; border-color: transparent;color: #fff;">1</a></li>
+                                  <li class="page-item"><a class="page-link" href="#" style="background-color:#394552; font-size: 18px; border-color: transparent;color: #fff;">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="#" style="background-color: #394552; font-size: 18px; border-color: transparent;color: #fff;">3</a></li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                      <span aria-hidden="true" style="color: #1f262f; font-size: 18px;">&raquo;</span>
+                                      <!-- <span class="sr-only">Next</span> -->
+                                    </a>
+                                  </li>
+                                </ul>
+                              </nav>
                         </div>
                     </div>
-
+                          
                 </div>
 
             </div>
@@ -456,28 +473,36 @@
                     <div class="noticeHeader">
                         <div class="historyUpHeader fontBlue">
 
-                            Customer Center
+                            <!-- Customer Center -->
                         </div>
 
                     </div>
+
+                    <div class="writerbox" style="display: flex; margin-left: 250px;">
+                        <div style="background-color: #303A46; width: 50px; height: 30px; display: flex; justify-content: center; align-items: center;">Writer</div>
+                         <p style="margin-left: 20px; margin-top: 5px; font-weight: bold;">netest1</p>
+                      </div>
+                      <div class="datebox" style="display: flex; margin-left: 400px; margin-top: -40px;">
+                          <div style="background-color: #303A46; width: 50px; height: 30px; display: flex; justify-content: center; align-items: center;">Date</div>
+                          <p style="margin-left: 20px; margin-top: 5px; font-weight: bold;">2023-03-23</p>
+                      </div>
+
                     <div class="depositeItem depositeBill">
 
 
 
                         <div class="menuItem">
                             <div class="dispIcon2 specDisp2">Subject</div>
-                            <div class="dispIcon inputSports3"><input type="text" name="password1" id="2222"
-                                    placeholder="Title" class="inputLeague" id="input5"></div>
+                            <div class="dispIcon inputSports3"><input type="text" name="password1" id="2222" placeholder="Title" class="inputLeague"></div>
                         </div>
+                         <br>
                         <div class="menuItem">
                             <div class="dispIcon2 specDisp2">Description</div>
-
+                            <div class="dispIcon inputSports3"><input type="textfield" name="password1" id="2222" placeholder="Write an issue" class="inputLeague"></div>
                         </div>
-                        <div class="menuItem">
+                        <!-- <div class="menuItem">
 
-                            <div class="dispIcon inputSports3"><input type="textfield" name="password1" id="2222"
-                                    placeholder="Write an issue" class="inputLeague"></div>
-                        </div>
+                        </div> -->
 
 
 
@@ -485,23 +510,35 @@
 
 
                         <div class="submitIssueBtn">
-                            <div class="submitReportBtn">Submit</div>
+                            <!-- <div class="submitReportBtn">Submit</div> -->
                         </div>
-                    </div>
+                          <div class="mainbtngroup" style="display: flex; justify-content: center; margin-top: -20px;">
+                            <button style="color: black; padding: 5px 40px; background-color:#EAC100; border: none; border-radius: 3px;">List</button>
+                            <button style="color: black;   padding: 5px 40px; background-color: #303A46; color: white; border: none; border-radius: 3px;">Delete</button>
+                      
+                          </div>
+
+                          </div>
+                       
+                    <!-- sdadasddsad -->
 
                 </div>
 
             </div>
         </div>
+        
+        <!-- Start Mybetspage -->
         <div class="my-backdrop7 historyDrop">
+                   
             <div class="NoticeWrapper2">
                 <div class="noticeBodyNew">
                     <div class="historyCancel" id="cancel7">
                         <i class="bi bi-x-lg "></i>
-
+                        
                     </div>
                     <div class="noticeHeader">
                         <div class="historyUpHeader fontBlue">
+                            
                             <!-- <div class="historyUpHeader1 depositeActive ">1x2</div>
                             <div class="historyUpHeader2  ">Handicap</div>
                             <div class="historyUpHeader3  ">Under/Over</div>
@@ -619,7 +656,13 @@
                 </div>
 
             </div>
+
+
         </div>
+
+        <!-- close mybets -->
+
+
         <div class="column2">
             <div class="chooseSports">
                 <div class="sportsWrapper">
@@ -814,24 +857,14 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <!-- <form class="d-flex">
+                        <form class="d-flex">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
                                 style="background-color: #1f262f; outline: none; color: white !important;">
                             <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form> -->
-                        <div data-v-3974b4ba="" class="search row" style="flex-direction: row;">
-                            <input
-                                data-v-5b7f4dd8="" data-v-3974b4ba="" type="text"
-                                placeholder="Enter team name or league name" inputmode="text" class="input"
-                                style="width: 90%; height: 35px; background-color: rgb(39, 48, 58); border: 0px; outline: none;">
-                                 <button
-                                data-v-3974b4ba="" class="search-button button"
-                                style="background: rgb(39, 48, 58); width: 40px; height: 35px; border: 0px;"><i data-v-e56d064c=""
-                                    data-v-3974b4ba="" class="bi bi-search"></i></button>
-                        </div>
+                        </form>
                         <hr>
                         <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item" style="background-color: #1f262f;">
+                            <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseOne" aria-expanded="false"
@@ -982,7 +1015,7 @@
                         </div>
 
                         <div class="HeaderBottom">
-                         <div class="op1">Single</div>
+                            <!-- <div class="op1">Single</div>
                             <div class="op1">Multi</div> -->
 
     </div>
@@ -999,7 +1032,39 @@
                         </div>
 
                     </div> -->
+    <!--<div class="slipFooter">
+        <div class="configBtn">
+            <div class="limitPopUp">
+                Odds limit exceed should be less than 100
+            </div>
+            <div class="emptyAll"><i class="bi bi-trash"></i>Empty all</div>
+            <div class="IncDec">
+                <div class="amount1">5,00</div>
+                <div class="amount1">10,00</div>
+                <div class="amount1">50,00</div>
+                <div class="amount1">1,00,00</div>
+                <div class="amount1">5,00,00</div>
+                <div class="amount1">10,00,00</div>
+                <div class="amount1">50,00,00</div>
+                <div class="maxAmnt">MAX</div>
+                <div class="resetAmnt">RESET</div>
+            </div>
+            <div class="betControl">
+                <div class="totalOdds">Total Odds</div>
+                <div class="OddsNumber"> 1</div>
+            </div>
+            <div class="betControl">
+                <div class="totalOdds">Est. Payout</div>
+                <div class="OddsNumberAmnt">0</div>
+            </div>
 
+        </div>
+        <div class="BetBtn">
+            <div class="btnNew">
+                Bet
+            </div>
+        </div>
+    </div>-->
     </div>
     </div>
     </div> -->

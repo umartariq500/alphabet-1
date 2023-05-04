@@ -46,6 +46,7 @@ const slipCancel1 = document.querySelector('.slipCancel1')
 
 
 
+
 let soccerData = [
 
     {
@@ -785,6 +786,7 @@ cartWrapper.addEventListener('click', function() {
     })
 
 })
+
 // selectTeam.addEventListener('click', function() {
 //     cartBackdrop.style.display = 'flex'
 //     col5.style.display = 'flex'

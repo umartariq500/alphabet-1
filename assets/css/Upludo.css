@@ -21,11 +21,11 @@ body {
 }
 
 .navbar-collapse {
-    flex-direction: row-reverse!important;
+    flex-direction: row-reverse !important;
 }
 
 .customNav {
-    background-color: rgb(31, 38, 47)!important;
+    background-color: rgb(31, 38, 47) !important;
     border-width: 1px 0;
     border-style: solid;
     border-color: rgb(64, 64, 68);
@@ -37,36 +37,36 @@ body {
 }
 
 .customUl {
-    color: rgb(218, 218, 218)!important;
+    color: rgb(218, 218, 218) !important;
     font-size: 14px !important;
 }
 
 .customUl1 {
-    color: rgb(26, 153, 199)!important
+    color: rgb(26, 153, 199) !important
 }
 
 .customUl1:hover {
-    color: rgb(218, 218, 218)!important;
-    border: 1px solid rgb(26, 153, 199)!important;
+    color: rgb(218, 218, 218) !important;
+    border: 1px solid rgb(26, 153, 199) !important;
 }
 
 .customUl:hover {
-    color: rgb(26, 153, 199)!important
+    color: rgb(26, 153, 199) !important
 }
 
 .customDrop {
-    background-color: rgb(26, 25, 28)!important;
-    border: 1px solid rgb(64, 64, 68)!important;
+    background-color: rgb(26, 25, 28) !important;
+    border: 1px solid rgb(64, 64, 68) !important;
     border-radius: 0%;
 }
 
 .customDropper {
-    color: rgb(218, 218, 218)!important;
+    color: rgb(218, 218, 218) !important;
 }
 
 .customDropper:hover {
-    color: rgb(193, 138, 110)!important;
-    background-color: rgb(26, 25, 28)!important;
+    color: rgb(193, 138, 110) !important;
+    background-color: rgb(26, 25, 28) !important;
 }
 
 .bodyWrapper {
@@ -151,7 +151,7 @@ justify-content: space-around; */
 }
 
 .active {
-    color: #16bdf9!important;
+    color: #16bdf9 !important;
 }
 
 .sportsMenu {
@@ -177,7 +177,7 @@ flex-direction: row-reverse;
 } */
 
 .spanWord {
-    color: rgb(26, 153, 199)!important;
+    color: rgb(26, 153, 199) !important;
 }
 
 .rightSegment {
@@ -203,7 +203,7 @@ flex-direction: row-reverse;
 }
 
 .bi-person-circle {
-    color: rgb(26, 153, 199)!important;
+    color: rgb(26, 153, 199) !important;
     font-size: 25px;
     display: none;
 }
@@ -213,11 +213,11 @@ flex-direction: row-reverse;
 }
 
 .submenu:hover {
-    color: rgb(26, 153, 199)!important;
+    color: rgb(26, 153, 199) !important;
 }
 
 .signinBtn {
-    background-color: rgb(26, 153, 199)!important;
+    background-color: rgb(26, 153, 199) !important;
     cursor: pointer;
     padding: 0 20px;
     border-radius: 2px;
@@ -671,7 +671,7 @@ height: 200px; */
 }
 
 .bi-list {
-    color: rgb(26, 153, 199)!important;
+    color: rgb(26, 153, 199) !important;
     font-size: 25px;
     display: none;
 }
@@ -687,7 +687,7 @@ height: 200px; */
 
 .fontSecondary {
     color: rgb(134, 140, 148);
-    font-weight: 500!important;
+    font-weight: 500 !important;
 }
 
 .noticeItem {
@@ -768,12 +768,18 @@ height: 200px; */
     position: fixed;
     background-color: rgb(31, 38, 47);
     /* width: 350px; */
-    width: 100%;
-    height: 100vh;
+    /* width: 100%; */
+    /* height: 100vh; */
     overflow: auto;
     right: 0;
     display: flex;
     justify-content: center;
+ 
+    width: 60%;
+    bottom: 0;
+    height: 70vh;
+    left: 0;
+    margin: auto;
 }
 
 .historyWrapper {
@@ -822,11 +828,11 @@ height: 200px; */
     justify-content: center;
     align-items: center;
     background-color: rgb(39, 48, 58);
-    border-bottom: 1px solid rgb(26, 153, 199)!important;
+    border-bottom: 1px solid rgb(26, 153, 199) !important;
 }
 
 .HeaderTop {
-    color: rgb(26, 153, 199)!important;
+    color: rgb(26, 153, 199) !important;
     font-size: 12px;
 }
 
@@ -844,7 +850,7 @@ height: 200px; */
 }
 
 .op1:hover {
-    color: rgb(26, 153, 199)!important;
+    color: rgb(26, 153, 199) !important;
 }
 
 .slipBody {
@@ -905,7 +911,7 @@ height: 200px; */
 }
 
 .emptyAll:hover {
-    color: rgb(26, 153, 199)!important;
+    color: rgb(26, 153, 199) !important;
 }
 
 .IncDec {
@@ -990,7 +996,7 @@ height: 200px; */
 .OddsNumberAmnt {
     font-size: 12px;
     font-weight: 300;
-    color: rgb(26, 153, 199)!important;
+    color: rgb(26, 153, 199) !important;
 }
 
 .BetBtn {
@@ -1001,7 +1007,7 @@ height: 200px; */
 }
 
 .btnNew {
-    background-color: rgb(26, 153, 199)!important;
+    background-color: rgb(26, 153, 199) !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1011,7 +1017,7 @@ height: 200px; */
 }
 
 .btnNew:hover {
-    background-color: rgb(29, 170, 222)!important;
+    background-color: rgb(29, 170, 222) !important;
     cursor: pointer;
 }
 
@@ -1314,15 +1320,15 @@ padding: 5px;
 }
 
 .specWidth {
-    width: 40%!important;
-    display: flex!important;
-    justify-content: space-around!important;
+    width: 40% !important;
+    display: flex !important;
+    justify-content: space-around !important;
 }
 
 .betActive {
     box-shadow: inset 0 0 0 2px #1a99c7;
     /* background-color: #16bdf9; */
-    color: white!important;
+    color: white !important;
 }
 
 .cartItemsWrapper {
@@ -2017,12 +2023,12 @@ height: 200px; */
 
 /* END::Deposite and Withdraw Screen */
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 5px;
     border-radius: 30px;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: rgb(54, 60, 68);
 }
 
@@ -2030,14 +2036,17 @@ height: 200px; */
 /* Styles for small screens (up to 576px) */
 
 @media (max-width: 576px) {
+
     /* Add additional styles as needed */
     .credUsername {
         border: none;
         width: 50%;
     }
+
     .credPassword {
         width: 50%;
     }
+
     .savedCred {
         padding: 10;
         display: flex;
@@ -2100,6 +2109,7 @@ height: 200px; */
 }
 
 @media (max-width: 1500px) {
+
     /* Add additional styles as needed */
     /* .column2 {
     max-width: 76%;
@@ -2107,12 +2117,15 @@ height: 200px; */
     .leagueCol3 {
         display: none;
     }
+
     .leagueCol4 {
         display: none;
     }
+
     .gameCol3 {
         display: none;
     }
+
     .gameCol4 {
         display: none;
     }
@@ -2126,6 +2139,7 @@ height: 200px; */
 }
 
 @media (max-width: 1400px) {
+
     /* Add additional styles as needed */
     /* .column2 {
     max-width: 73%;
@@ -2134,12 +2148,15 @@ height: 200px; */
         display: none;
         flex-basis: 0px;
     }
+
     .column4 {
         max-width: 100%;
     }
+
     .column2 {
         max-width: none;
     }
+
     .cartWrapper {
         display: block;
     }
@@ -2159,21 +2176,27 @@ height: 200px; */
     .logoSegment {
         display: block;
     }
+
     .sidebar {
         left: -100%;
     }
+
     .rightSegment {
         display: none;
     }
+
     .bi-person-circle {
         display: block;
     }
+
     .bi-list {
         display: block;
     }
+
     .betSlip {
         /* right: 100% */
     }
+
     /* .column2 {
     flex-basis: 1300px;
 } */
@@ -2181,25 +2204,31 @@ height: 200px; */
         display: none;
         flex-basis: 0px;
     }
+
     .customUl {
         font-size: 10px !important;
     }
+
     .customUl1 {
         font-size: 10px !important;
     }
+
     .tab-group li a {
         font-size: 16px;
     }
+
     h3,
     h1 {
         font-size: 16px;
     }
+
     /* .column2 {
     max-width: 100%;
 } */
     /* Add additional styles as needed */
     /* Styles for medium screens (up to 768px) */
     @media (max-width: 1008px) {
+
         /* Add additional styles as needed */
         /* .leagueCol3 {
         display: flex;
@@ -2216,56 +2245,72 @@ height: 200px; */
         .column2 {
             max-width: none;
         }
+
         .column4 {
             display: 100%;
         }
+
         .extraOddsContainer {
             flex-direction: column;
         }
+
         .extraOddsBody {
             width: 100%;
         }
+
         .extraOddsBody2,
         .extraOddsBody1,
         .extraOddsBody3 {
             width: 100%;
         }
     }
+
     /* Styles for large screens (up to 992px) */
     @media (max-width: 852px) {
+
         /* Add additional styles as needed */
         .playerOddsContainer {
             flex-direction: column;
         }
+
         .playerBetSlip {
             width: 100%;
         }
+
         .extraOddsContainer {
             width: 100%;
         }
+
         .selectOptions {
             display: block;
         }
+
         .diceHistory {
             width: 25%;
         }
+
         .historyCol1 {
             font-size: 12px;
         }
+
         .oddsSelect {
             font-size: 10px;
             padding: 0px
         }
+
         .slipHeader {
             justify-content: space-between;
         }
+
         .slipCancel {
             display: block;
         }
+
         .sliderMenuActive {
             width: 60%;
         }
     }
+
     /* Styles for extra large screens (up to 1200px) */
     /* Styles for screens larger than 1200px */
 }

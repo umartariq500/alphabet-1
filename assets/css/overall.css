@@ -10,13 +10,16 @@
 }
 
 .slipCancel {
-    position: relative;
-    left: 0;
+    /* position: relative; */
+    /* left: 0; */
     background-color: #16bdf9;
     padding: 10px;
     display: none;
     width: 35px;
     cursor: pointer;
+    position: absolute;
+    left: revert;
+    right: 0;
 }
 
 .slipCancel {

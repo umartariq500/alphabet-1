@@ -204,6 +204,7 @@ function generateHistoryTable1(number) {
     // get the box element
     let box = document.querySelector('.box');
 
+
     // check if the generated number is less than 4
     if (number < 4) {
         // if the number is less than 4 and there have been less than 6 consecutive low numbers, append it to the last element
@@ -291,12 +292,18 @@ function generateHistoryTable1(number) {
             element.appendChild(item);
             box.appendChild(element);
             consecutiveHighNumber = 0;
+            box.scrollLeft = container.scrollWidth;
+
         }
+
 
 
     }
 
+
+
 }
+
 
 function generateHistoryTable2(number) {
 
@@ -318,7 +325,7 @@ function generateHistoryTable2(number) {
             item.className = 'oddsEven';
             item.innerHTML = `
             <div class='oddsCollector collectEven'>
-            E
+            
             </div>
             `
 
