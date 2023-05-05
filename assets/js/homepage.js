@@ -29,13 +29,14 @@ const changeInfoBtn = document.querySelector('.changeBtn')
 
 const myBetsBtn = document.querySelector('.myBetsBtn')
 const customerToggleBtn = document.querySelector('.customerBtn')
+const pointExchangeToggleBtn = document.querySelector('.pointExchange')
 const slipCancel = document.querySelector('.slipCancel')
 const slipCancel1 = document.querySelector('.slipCancel1')
-
-
-
-
-
+const pointExchange = document.querySelector('.my-backdropPointExchange')
+const ExchangeApplication = document.querySelector('.my-backdropExchangeApplication')
+const OpenRulesPopup = document.querySelector('.my-backdropRules')
+const OpenSelectLeaguePopup=document.querySelector('.my-backdropSelectLeague')
+const OpenSelectLeaguePopupBtn=document.querySelector('.modal-header')
 
 
 
@@ -1052,6 +1053,52 @@ document.addEventListener('DOMContentLoaded', function() {
             infoDrop.style.display = 'none'
         })
     })
+    // Select League
+    OpenSelectLeaguePopupBtn.addEventListener('click', () => {
+        sliderBackDrop.style.display = 'none'
+        sliderMenu.classList.remove('sliderMenuActive')
+        OpenSelectLeaguePopup.style.display = 'flex'
+        changeCancel = document.querySelector('.leaguePopupCancel')
+        changeCancel.addEventListener('click', () => {
+            OpenSelectLeaguePopup.style.display = 'none'
+        })
+       
+    })
+
+    //Point Exchange Popup
+
+    pointExchangeToggleBtn.addEventListener('click', () => {
+            sliderBackDrop.style.display = 'none'
+            sliderMenu.classList.remove('sliderMenuActive')
+            pointExchange.style.display = 'flex'
+            changeCancel = document.querySelector('.infoCancel12')
+            changeCancel.addEventListener('click', () => {
+                pointExchange.style.display = 'none'
+            })
+            
+            let ExhangeApplicationBtn = document.querySelector('.ExchangeApplicationBtn')
+        ExhangeApplicationBtn.addEventListener('click', function() {
+            ExchangeApplication.style.display = 'flex'
+            })
+
+            let closeNoPopup = document.querySelector('.noBtn')
+            closeNoPopup.addEventListener('click', function() {
+                ExchangeApplication.style.display = 'none'
+            })
+
+            let openRules = document.querySelector('.infoRules')
+            openRules.addEventListener('click', function() {
+                OpenRulesPopup.style.display = 'flex'
+            })
+
+            let closeRules = document.querySelector('.RulesBtn')
+            closeRules.addEventListener('click', function() {
+                OpenRulesPopup.style.display = 'none'
+            })
+
+        })
+
+    //*********** */
     myBetsBtn.addEventListener('click', () => {
         betsDrop.style.display = 'flex'
         sliderBackDrop.style.display = 'none'

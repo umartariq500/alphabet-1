@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/extendedv2.css">
     <link rel="stylesheet" href="assets/css/overall.css">
@@ -73,10 +74,13 @@
                                 Changing Information
                             </div>
                             <div class="impBtns myBetsBtn ">
-                                <a href="myBets.html"  style="color: white; text-decoration: none;">My Bets</a>
+                                <a href="myBets.html" style="color: white; text-decoration: none;">My Bets</a>
                             </div>
                             <div class="impBtns customerBtn">
                                 Customer Center
+                            </div>
+                            <div class="impBtns pointExchange">
+                                Point Exchange
                             </div>
 
                             <div class="impBtns fontRed">
@@ -465,7 +469,7 @@
                                         <option value="30">30</option>
                                     </select>
                                 </div>
-                    
+
                             </div>
                             <div class="pageRight">
                                 <div class="pageNo" id="miniPN1">1</i>
@@ -480,7 +484,7 @@
                             <div class="submitReportBtn"
                                 style="width: 50px; height: 40px; display: flex; justify-content: center; align-items: center; margin-top: 10px;">
                                 Write</div>
-                           
+
                         </div>
                     </div>
 
@@ -505,18 +509,22 @@
                     <div class="depositeItem depositeBill">
                         <div class="menuItem" style="margin-top: 40px;">
                             <div class="dispIcon2 specDisp2">Title</div>
-                            <div class="dispIcon inputSports3"><p style="margin-left: -340px; margin-top: 20px;">foraccountnunmber</p></div>
+                            <div class="dispIcon inputSports3">
+                                <p style="margin-left: -340px; margin-top: 20px;">foraccountnunmber</p>
+                            </div>
                         </div>
                         <br>
                         <div class="menuItem">
                             <div class="dispIcon2 specDisp2">Description</div>
-                            <div class="dispIcon inputSports3"><p style="margin-left: -340px; margin-top: 20px;">foraccountnunmber</p></div>
+                            <div class="dispIcon inputSports3">
+                                <p style="margin-left: -340px; margin-top: 20px;">foraccountnunmber</p>
+                            </div>
                         </div>
 
                         <div class="submitIssueBtn">
                             <div class="submitReportBtn">Submit</div>
                         </div>
-                      
+
 
                     </div>
 
@@ -557,10 +565,10 @@
 
 
 
-                        <!-- <div class="submitIssueBtn">
+                    <!-- <div class="submitIssueBtn">
                             <div class="submitReportBtn">Submit</div>
                         </div> -->
-                        <!-- <div class="mainbtngroup" style="display: flex; justify-content: center; margin-top: -20px;">
+                    <!-- <div class="mainbtngroup" style="display: flex; justify-content: center; margin-top: -20px;">
                             <button
                                 style="color: black; padding: 5px 40px; background-color:#EAC100; border: none; border-radius: 3px;">List</button>
                             <button
@@ -576,420 +584,508 @@
 
             </div>
         </div>
-
-        <!-- Start Mybetspage -->
-        <div class="my-backdrop7 historyDrop">
-
+        <div class="my-backdropPointExchange infoDrop">
             <div class="NoticeWrapper2">
                 <div class="noticeBodyNew">
-                    <div class="historyCancel" id="cancel7">
+                    <div class="infoCancel12">
                         <i class="bi bi-x-lg "></i>
-
                     </div>
                     <div class="noticeHeader">
                         <div class="historyUpHeader fontBlue">
 
-                            <!-- <div class="historyUpHeader1 depositeActive ">1x2</div>
+                            Point Transfer
+                        </div>
+                        <div class="depositeItem depositeBill">
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">Holding Point</div>
+                                <div class="dispIcon">200</div>
+                            </div>
+                            <div class="menuItem">
+                                <div class="dispIcon specDisp">Exchange Point</div>
+                                <div class="dispIcon inputSports"><input type="password" name="password1" id="22"
+                                        placeholder="Please type in the points you want to exchange"
+                                        class="inputLeague"></div>
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <div class="infoRules pageLeft pt-4">
+                                <i class="fa fa-question-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="pageRight">
+                                <div class="ExchangeApplicationBtn">
+                                    <div class="noticeBtn">Application For Exchange</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ************* -->
+        <div class="my-backdropExchangeApplication historyDrop">
+            <div class="NoticeWrapper2">
+                <div class="noticeBodyNew">
+                    <div class="noticeHeader pt-4">
+                        <div class="historyUpHeader fontBlue">
+                            <img src="./assets/images/questionMark.png" width="100" height="100" />
+                        </div>
+                    </div>
+                    <div class="depositeItem depositeBill pt-4">
+                        <div class="pt-3">
+                            <p class="text-center ">
+                                Do you want to exchange points for cash?
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="noticeBtn yesBtn text-center">Yes</div>
+                            <div class="noticeBtn mx-3 noBtn text-center">Cancel</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ************* -->
+        <div class="my-backdropRules historyDrop">
+            <div class="NoticeWrapper2">
+                <div class="noticeBodyNew">
+                    <div class="depositeItem depositeBill pt-4">
+                        <div>
+                            <p style="color: yellow; font-size: 12px;">
+                                Points received by members can be converted into holdings.
+                            </p>
+                            <p style="color: yellow;font-size: 12px;padding-top: -5px;">
+                                The minimum amount for one-time conversion is 5,000 points, and it can be converted in
+                                increments of 1 won.
+                            </p>
+                            <p style="color: yellow;font-size: 12px;padding-top: -5px;">
+                                After entering the desired amount in the application point column , click Apply for
+                                Conversion .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="noticeBtn RulesBtn text-center">Close</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ************* -->
+
+    <!-- Start Mybetspage -->
+    <div class="my-backdrop7 historyDrop">
+
+        <div class="NoticeWrapper2">
+            <div class="noticeBodyNew">
+                <div class="historyCancel" id="cancel7">
+                    <i class="bi bi-x-lg "></i>
+
+                </div>
+                <div class="noticeHeader">
+                    <div class="historyUpHeader fontBlue">
+
+                        <!-- <div class="historyUpHeader1 depositeActive ">1x2</div>
                             <div class="historyUpHeader2  ">Handicap</div>
                             <div class="historyUpHeader3  ">Under/Over</div>
                             <div class="historyUpHeader4">Live</div> -->
-                            Match History
-                        </div>
-
-                    </div>
-                    <div class="depositeItem depositeBill">
-
-                        <div class="depositeHistory">
-                            <!-- <div class="historyHeader">Deposite History</div> -->
-                            <div class="headerItem">
-                                <div class="hd2">Time</div>
-                                <div class="hd2">Bet Type</div>
-                                <div class="hd2">League</div>
-                                <div class="hd2">Home</div>
-                                <div class="hd2">Draw/Handicap</div>
-                                <div class="hd2">Away</div>
-                                <div class="hd2">Score</div>
-                                <div class="hd2">Result</div>
-                            </div>
-                            <div class="footerItem">
-                                <div class="hd1s hd2">2023-03-18
-                                    <div>
-
-                                        19:32:56</div>
-                                </div>
-                                <div class="hd2">Win</div>
-                                <div class="hd2">Premire League</div>
-                                <div class="hd2">Arsenal</div>
-                                <div class="hd2">-0.5</div>
-                                <div class="hd2">United</div>
-
-                                <div class="hd2">2:1</div>
-                                <div class="hd2 fontBlue">Lost</div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                    <div class="pagination">
-                        <div class="pageLeft">
-                            <div class="pageLimiter">
-                                <select name="oddsType" class="selectOptions2" id="mini1">
-                                    <option value="10">10</option>
-                                    <option value="20">20</option>
-                                    <option value="30">30</option>
-                                </select>
-                            </div>
-
-                        </div>
-                        <div class="pageRight">
-                            <div class="pageNo" id="miniPN1">1</i>
-                            </div>
-                            <div class="pageController">
-                                <div class="pLeft " id="lbtn1"><i class="bi bi-chevron-left chevronLogo "></i></div>
-                                <div class="pLeft" id="rbtn1"><i class="bi bi-chevron-right chevronLogo"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="betInfo">
-                        <div class="betBtns">
-                            <div class="extraBtns">
-                                <div class="noticeBtn">Cancel Btn</div>
-                            </div>
-                            <div class="extraBtns">
-                                <div class="noticeBtn">Add Board</div>
-                            </div>
-                            <div class="extraBtns">
-                                <div class="noticeBtn">Add CS</div>
-                            </div>
-                        </div>
-                        <div class="additionalInfo">
-                            <div class="info1">Bet Time:
-
-                                <div class="answer1">
-                                    2023-03-18
-                                </div>
-                            </div>
-                            <div class="info1">Amount :
-                                <div class="answer1">
-                                    1,000
-                                </div>
-                            </div>
-                            <div class="info1">Ratio:
-                                <div class="answer1">
-                                    15.36
-                                </div>
-                            </div>
-                            <div class="info1">Win Prediction Amount :
-                                <div class="answer1">
-                                    15,360
-                                </div>
-                            </div>
-                            <div class="info1">Win Ratio:
-                                <div class="answer1">
-                                    0
-                                </div>
-                            </div>
-                            <div class="info1">Win Amount :
-                                <div class="answer1">
-                                    0
-                                </div>
-                            </div>
-                            <div class="info1">Status:
-                                <div class="answer1">
-                                    PROCEED
-                                </div>
-                            </div>
-                        </div>
-
+                        Match History
                     </div>
 
                 </div>
+                <div class="depositeItem depositeBill">
 
-            </div>
-
-
-        </div>
-
-        <!-- close mybets -->
-
-
-        <div class="column2">
-            <div class="chooseSports">
-                <div class="sportsWrapper">
-                    <div class="topSideWrapper bbcolor">
-
-
-                        <div class="topSideSports">
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/8.svg" alt="" width="40" height="20"></div>
-                                <div class="sportName">Soccer</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/7.svg" alt="" width="40" height="20"></div>
-                                <div class="sportName">Basketball</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/6.svg" alt="" width="40" height="20"></div>
-                                <div class="sportName">Tennis</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/5.svg" alt="" width="40" height="20"></div>
-                                <div class="sportName">Handball</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/4.svg" alt="" width="40" height="20"></div>
-                                <div class="sportName">Golf</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/3.svg" alt="" width="40" height="20"></div>
-                                <div class="sportName">Boxing</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/2.svg" alt="" width="40" height="20"></div>
-                                <div class="sportName">Rugby</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/1.svg" alt="" width="40" height="20"></div>
-                                <div class="sportName">Snooker</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/9.svg" alt="" width="40" height="20"></div>
-                                <div class="sportName">Golf</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/10.svg" alt="" width="40" height="20">
-                                </div>
-                                <div class="sportName">Boxing</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/11.svg" alt="" width="40" height="20">
-                                </div>
-                                <div class="sportName">Rugby</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/12.svg" alt="" width="40" height="20">
-                                </div>
-                                <div class="sportName">Snooker</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/13.svg" alt="" width="40" height="20">
-                                </div>
-                                <div class="sportName">Boxing</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/14.svg" alt="" width="40" height="20">
-                                </div>
-                                <div class="sportName">Rugby</div>
-                            </div>
-                            <div class="singleSport">
-                                <div class="sportLogo"><img src="assets/SVGs/15.svg" alt="" width="40" height="20">
-                                </div>
-                                <div class="sportName">Snooker</div>
-                            </div>
+                    <div class="depositeHistory">
+                        <!-- <div class="historyHeader">Deposite History</div> -->
+                        <div class="headerItem">
+                            <div class="hd2">Time</div>
+                            <div class="hd2">Bet Type</div>
+                            <div class="hd2">League</div>
+                            <div class="hd2">Home</div>
+                            <div class="hd2">Draw/Handicap</div>
+                            <div class="hd2">Away</div>
+                            <div class="hd2">Score</div>
+                            <div class="hd2">Result</div>
                         </div>
-                    </div>
-                    <div class="bottomSideWrapper btSpecColor">
+                        <div class="footerItem">
+                            <div class="hd1s hd2">2023-03-18
+                                <div>
 
-                        <div class="downSideSports">
-                            <div class="inputSports">
-                                <input type="text" name="Sport" id=""
-                                    placeholder="Please enter team name or league name" class="inputLeague">
+                                    19:32:56</div>
                             </div>
+                            <div class="hd2">Win</div>
+                            <div class="hd2">Premire League</div>
+                            <div class="hd2">Arsenal</div>
+                            <div class="hd2">-0.5</div>
+                            <div class="hd2">United</div>
+
+                            <div class="hd2">2:1</div>
+                            <div class="hd2 fontBlue">Lost</div>
                         </div>
+
+
                     </div>
                 </div>
-                <div class="sortWrapper">
-                    <div class="sortButtons">
-                        <div class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
-                                class="bi bi-bookmark"></i>Select league</div>
-                        <div class="btn2 active"><i class="bi bi-sort-down"></i>Sort time</div>
-                        <div class="btn3"><i class="bi bi-sort-up"></i>Sort league</div>
-                    </div>
-                    <div class="displayTable">
-                        <div class="selectWrapper">
-                            <select name="oddsType" id="" class="selectOptions">
-                                <option value="winner">Winner</option>
-                                <option value="handicap">Handicap</option>
-                                <option value="overUnder">Over/Under</option>
+                <div class="pagination">
+                    <div class="pageLeft">
+                        <div class="pageLimiter">
+                            <select name="oddsType" class="selectOptions2" id="mini1">
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="30">30</option>
                             </select>
                         </div>
+
                     </div>
-                </div>
-                <div class="gamesWrapper">
-                    <div class="gamesTable">
-                        <div class="leagueTable">
-
-
-
-
+                    <div class="pageRight">
+                        <div class="pageNo" id="miniPN1">1</i>
+                        </div>
+                        <div class="pageController">
+                            <div class="pLeft " id="lbtn1"><i class="bi bi-chevron-left chevronLogo "></i></div>
+                            <div class="pLeft" id="rbtn1"><i class="bi bi-chevron-right chevronLogo"></i></div>
                         </div>
                     </div>
+                </div>
+                <div class="betInfo">
+                    <div class="betBtns">
+                        <div class="extraBtns">
+                            <div class="noticeBtn">Cancel Btn</div>
+                        </div>
+                        <div class="extraBtns">
+                            <div class="noticeBtn">Add Board</div>
+                        </div>
+                        <div class="extraBtns">
+                            <div class="noticeBtn">Add CS</div>
+                        </div>
+                    </div>
+                    <div class="additionalInfo">
+                        <div class="info1">Bet Time:
+
+                            <div class="answer1">
+                                2023-03-18
+                            </div>
+                        </div>
+                        <div class="info1">Amount :
+                            <div class="answer1">
+                                1,000
+                            </div>
+                        </div>
+                        <div class="info1">Ratio:
+                            <div class="answer1">
+                                15.36
+                            </div>
+                        </div>
+                        <div class="info1">Win Prediction Amount :
+                            <div class="answer1">
+                                15,360
+                            </div>
+                        </div>
+                        <div class="info1">Win Ratio:
+                            <div class="answer1">
+                                0
+                            </div>
+                        </div>
+                        <div class="info1">Win Amount :
+                            <div class="answer1">
+                                0
+                            </div>
+                        </div>
+                        <div class="info1">Status:
+                            <div class="answer1">
+                                PROCEED
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
 
-
-
-
-
         </div>
-        <div class="column4">
 
-        </div>
-        <div class="column3">
-            <div class="betSlip">
-                <div class="slipWrapper">
-                    <div class="slipHeaderWrapper">
-                        <div class="slipHeader">
-                            <div class="HeaderTop">Betting Slip</div>
-                            <div class="slipCancel">
-                                <i class="bi bi-x-lg "></i>
-                            </div>
+
+    </div>
+
+    <!-- close mybets -->
+
+
+    <div class="column2">
+        <div class="chooseSports">
+            <div class="sportsWrapper">
+                <div class="topSideWrapper bbcolor">
+
+
+                    <div class="topSideSports">
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/8.svg" alt="" width="40" height="20"></div>
+                            <div class="sportName">Soccer</div>
                         </div>
-                        <div class="HeaderBottom">
-                            <!-- <div class="op1">Single</div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/7.svg" alt="" width="40" height="20"></div>
+                            <div class="sportName">Basketball</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/6.svg" alt="" width="40" height="20"></div>
+                            <div class="sportName">Tennis</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/5.svg" alt="" width="40" height="20"></div>
+                            <div class="sportName">Handball</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/4.svg" alt="" width="40" height="20"></div>
+                            <div class="sportName">Golf</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/3.svg" alt="" width="40" height="20"></div>
+                            <div class="sportName">Boxing</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/2.svg" alt="" width="40" height="20"></div>
+                            <div class="sportName">Rugby</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/1.svg" alt="" width="40" height="20"></div>
+                            <div class="sportName">Snooker</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/9.svg" alt="" width="40" height="20"></div>
+                            <div class="sportName">Golf</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/10.svg" alt="" width="40" height="20">
+                            </div>
+                            <div class="sportName">Boxing</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/11.svg" alt="" width="40" height="20">
+                            </div>
+                            <div class="sportName">Rugby</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/12.svg" alt="" width="40" height="20">
+                            </div>
+                            <div class="sportName">Snooker</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/13.svg" alt="" width="40" height="20">
+                            </div>
+                            <div class="sportName">Boxing</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/14.svg" alt="" width="40" height="20">
+                            </div>
+                            <div class="sportName">Rugby</div>
+                        </div>
+                        <div class="singleSport">
+                            <div class="sportLogo"><img src="assets/SVGs/15.svg" alt="" width="40" height="20">
+                            </div>
+                            <div class="sportName">Snooker</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottomSideWrapper btSpecColor">
+
+                    <div class="downSideSports">
+                        <div class="inputSports">
+                            <input type="text" name="Sport" id="" placeholder="Please enter team name or league name"
+                                class="inputLeague">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sortWrapper">
+                <div class="sortButtons">
+                    <div class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                            class="bi bi-bookmark"></i>Select league</div>
+                    <div class="btn2 active"><i class="bi bi-sort-down"></i>Sort time</div>
+                    <div class="btn3"><i class="bi bi-sort-up"></i>Sort league</div>
+                </div>
+                <div class="displayTable">
+                    <div class="selectWrapper">
+                        <select name="oddsType" id="" class="selectOptions">
+                            <option value="winner">Winner</option>
+                            <option value="handicap">Handicap</option>
+                            <option value="overUnder">Over/Under</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="gamesWrapper">
+                <div class="gamesTable">
+                    <div class="leagueTable">
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+    <div class="column4">
+
+    </div>
+    <div class="column3">
+        <div class="betSlip">
+            <div class="slipWrapper">
+                <div class="slipHeaderWrapper">
+                    <div class="slipHeader">
+                        <div class="HeaderTop">Betting Slip</div>
+                        <div class="slipCancel">
+                            <i class="bi bi-x-lg "></i>
+                        </div>
+                    </div>
+                    <div class="HeaderBottom">
+                        <!-- <div class="op1">Single</div>
                             <div class="op1">Multi</div> -->
 
-                        </div>
                     </div>
+                </div>
 
-                    <div class="slipBody">
-                        <div class="cartItemsWrapper">
-
-                        </div>
-                        <div class="emptyCart ">
-                            <i class="bi bi-dash-circle"></i>
-                            <div class="infoEmpty">The betting cart is empty</div>
-                        </div>
+                <div class="slipBody">
+                    <div class="cartItemsWrapper">
 
                     </div>
-                    <div class="slipFooter">
-                        <div class="configBtn">
-                            <div class="limitPopUp">
-                                Odds limit exceed should be less than 100
-                            </div>
-                            <div class="emptyAll"><i class="bi bi-trash"></i>Empty all</div>
-                            <div class="IncDec">
-                                <div class="amount1">5,00</div>
-                                <div class="amount1">10,00</div>
-                                <div class="amount1">50,00</div>
-                                <div class="amount1">1,00,00</div>
-                                <div class="amount1">5,00,00</div>
-                                <div class="amount1">10,00,00</div>
-                                <div class="amount1">50,00,00</div>
-                                <div class="maxAmnt">MAX</div>
-                                <div class="resetAmnt">RESET</div>
-                            </div>
-                            <div class="betControl">
-                                <div class="totalOdds">Total Odds</div>
-                                <div class="OddsNumber"> 1</div>
-                            </div>
-                            <div class="betControl">
-                                <div class="totalOdds">Est. Payout</div>
-                                <div class="OddsNumberAmnt">0</div>
-                            </div>
+                    <div class="emptyCart ">
+                        <i class="bi bi-dash-circle"></i>
+                        <div class="infoEmpty">The betting cart is empty</div>
+                    </div>
 
+                </div>
+                <div class="slipFooter">
+                    <div class="configBtn">
+                        <div class="limitPopUp">
+                            Odds limit exceed should be less than 100
                         </div>
-                        <div class="BetBtn">
-                            <div class="btnNew">
-                                Bet
-                            </div>
+                        <div class="emptyAll"><i class="bi bi-trash"></i>Empty all</div>
+                        <div class="IncDec">
+                            <div class="amount1">5,00</div>
+                            <div class="amount1">10,00</div>
+                            <div class="amount1">50,00</div>
+                            <div class="amount1">1,00,00</div>
+                            <div class="amount1">5,00,00</div>
+                            <div class="amount1">10,00,00</div>
+                            <div class="amount1">50,00,00</div>
+                            <div class="maxAmnt">MAX</div>
+                            <div class="resetAmnt">RESET</div>
+                        </div>
+                        <div class="betControl">
+                            <div class="totalOdds">Total Odds</div>
+                            <div class="OddsNumber"> 1</div>
+                        </div>
+                        <div class="betControl">
+                            <div class="totalOdds">Est. Payout</div>
+                            <div class="OddsNumberAmnt">0</div>
+                        </div>
+
+                    </div>
+                    <div class="BetBtn">
+                        <div class="btnNew">
+                            Bet
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content" style="background-color: #1f262f;">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Select League</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
-                                style="background-color: #1f262f; outline: none; color: white !important;">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                        <hr>
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                        aria-controls="flush-collapseOne">
-                                        <img src="assets/images/england.png" style="width: 20px; height: 14px;">England
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body" style="color: black;">
-                                        <div class="row align-items-start">
-                                            <div class="col " style="color: black;">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault"
-                                                    style="color: black;">
-                                                    Value 1
-                                                </label>
-                                            </div>
-                                            <div class="col" style="color: black;">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault"
-                                                    style="color: black;">
-                                                    Value 1
-                                                </label>
-                                            </div>
-                                            <div class="col" style="color: black;">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault"
-                                                    style="color: black;">
-                                                    Value 1
-                                                </label>
-                                            </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #1f262f;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Select League</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                            style="background-color: #1f262f; outline: none; color: white !important;">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <hr>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <img src="assets/images/england.png" style="width: 20px; height: 14px;">England
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body" style="color: black;">
+                                    <div class="row align-items-start">
+                                        <div class="col " style="color: black;">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault"
+                                                style="color: black;">
+                                                Value 1
+                                            </label>
                                         </div>
-                                        <div class="row align-items-start">
-                                            <div class="col " style="color: black;">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault"
-                                                    style="color: black;">
-                                                    Value 1
-                                                </label>
-                                            </div>
-                                            <div class="col" style="color: black;">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault"
-                                                    style="color: black;">
-                                                    Value 1
-                                                </label>
-                                            </div>
-                                            <div class="col" style="color: black;">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault"
-                                                    style="color: black;">
-                                                    Value 1
-                                                </label>
-                                            </div>
+                                        <div class="col" style="color: black;">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault"
+                                                style="color: black;">
+                                                Value 1
+                                            </label>
+                                        </div>
+                                        <div class="col" style="color: black;">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault"
+                                                style="color: black;">
+                                                Value 1
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-start">
+                                        <div class="col " style="color: black;">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault"
+                                                style="color: black;">
+                                                Value 1
+                                            </label>
+                                        </div>
+                                        <div class="col" style="color: black;">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault"
+                                                style="color: black;">
+                                                Value 1
+                                            </label>
+                                        </div>
+                                        <div class="col" style="color: black;">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault"
+                                                style="color: black;">
+                                                Value 1
+                                            </label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="modal-footer">
+                </div>
+                <!-- <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                   <button type="button" class="btn btn-primary">Save changes</button>
                 </div> -->
-                </div>
             </div>
         </div>
-        <!-- <div class="column5">
+    </div>
+    <!-- <div class="column5">
             <div class="selectTeam">
                 <div class="slipWrapper">
                     <div class="slipHeaderWrapper">
@@ -1103,7 +1199,7 @@
     <script src="assets/js/messages.js"></script>
     <script src="assets/js/extended.js"></script>
 
-    
+
 </body>
 
 </html>

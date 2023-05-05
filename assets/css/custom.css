@@ -1175,8 +1175,12 @@ border-right: 1px solid #1e242c; */
 .my-backdrop4,
 .my-backdrop5,
 .my-backdrop6,
-.my-backdrop7 {
-    position: fixed;
+.my-backdrop7,
+.my-backdropPointExchange,
+.my-backdropExchangeApplication,
+.my-backdropRules,
+.my-backdropSelectLeague {
+   position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -1210,9 +1214,11 @@ height: 200px; */
 .depositeCancel,
 .historyCancel,
 .infoCancel,
+.infoCancel12,
 .customerCancel1,
-.customerCancel2 {
-    position: relative;
+.customerCancel2,
+.leaguePopupCancel {
+   position: relative;
     right: 0;
     margin-top: -35px;
     background-color: #16bdf9;
@@ -1358,8 +1364,9 @@ height: 200px; */
 }
 
 .depositeBtn2,
-.submitIssueBtn {
-    font-size: 13px;
+.submitIssueBtn,
+.ExchangeApplicationBtn{
+   font-size: 13px;
     font-weight: 500;
     display: flex;
     width: 100%;
@@ -1367,6 +1374,17 @@ height: 200px; */
     padding: 10px;
     flex-direction: row-reverse;
     margin-top: 10px;
+}
+.yesBtn,
+.noBtn,
+.RulesBtn{
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100px;
 }
 
 .noticeBtn,
