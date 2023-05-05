@@ -12,9 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/Upludo.css">
     <link rel="stylesheet" href="assets/css/extended.css">
+    <link rel="stylesheet" href="assets/css/extendedv2.css">
     <link rel="stylesheet" href="assets/css/overall.css">
     <link rel="stylesheet" href="assets/css/pagination.css">
     <link rel="stylesheet" href="assets/css/messages.css">
+    <!-- <link rel="stylesheet" href="assets/css/dualLudo.css"> -->
     <title>Ludo</title>
 </head>
 
@@ -68,8 +70,8 @@
                             <div class="impBtns changeBtn ">
                                 Changing Information
                             </div>
-                            <div class="impBtns myBetsBtn ">
-                                My Bets
+                            <div class="impBtns  ">
+                                <a href="myBets.html"  style="color: white; text-decoration: none;">My Bets</a>
                             </div>
                             <div class="impBtns customerBtn">
                                 Customer Center
@@ -367,7 +369,7 @@
                                 <div class="hd4">-1.8</div>
                                 <div class="hd4">Real Madrid</div>
                                 <div class="hd4">2:1</div>
-                                <div class="hd5 fontBlue">Home</div>
+                                <!-- <div class="hd5 fontBlue">Home</div> -->
                             </div>
                             <div class="footerItem">
                                 <div class="hd1s">2023-03-18
@@ -381,9 +383,30 @@
                                 <div class="hd4">-1.8</div>
                                 <div class="hd4">Real Madrid</div>
                                 <div class="hd4">2:1</div>
-                                <div class="hd5 fontBlue">Home</div>
+                                <!-- <div class="hd5 fontBlue">Home</div> -->
                             </div>
 
+                        </div>
+
+                        <div class="pagination">
+                            <div class="pageLeft">
+                                <div class="pageLimiter">
+                                    <select name="oddsType" class="selectOptions2" id="mini1">
+                                        <option value="10">10</option>
+                                        <option value="20">20</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="pageRight">
+                                <div class="pageNo" id="miniPN1">1</i>
+                                </div>
+                                <div class="pageController">
+                                    <div class="pLeft " id="lbtn1"><i class="bi bi-chevron-left chevronLogo "></i></div>
+                                    <div class="pLeft" id="rbtn1"><i class="bi bi-chevron-right chevronLogo"></i></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -487,27 +510,31 @@
 
 
                         </div>
+                        <div class="pagination">
+                            <div class="pageLeft">
+                                <div class="pageLimiter">
+                                    <select name="oddsType" class="selectOptions2" id="mini1">
+                                        <option value="10">10</option>
+                                        <option value="20">20</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                </div>
+                    
+                            </div>
+                            <div class="pageRight">
+                                <div class="pageNo" id="miniPN1">1</i>
+                                </div>
+                                <div class="pageController">
+                                    <div class="pLeft " id="lbtn1"><i class="bi bi-chevron-left chevronLogo "></i></div>
+                                    <div class="pLeft" id="rbtn1"><i class="bi bi-chevron-right chevronLogo"></i></div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="depositeBtn2">
-                            <div class="submitReportBtn" style="width: 50px; height: 40px; display: flex; justify-content: center; align-items: center; margin-top: 10px;">Write</div>
-                            <nav aria-label="Page navigation example" >
-                                <ul class="pagination" style="background-color: #1f262f;">
-                                  <li class="page-item" style="background-color: #1f262f;">
-                                    <a class="page-link" href="#" aria-label="Previous">
-                                      <span aria-hidden="true" style="color: #1f262f; font-size: 18px;">&laquo;</span>
-                                      <!-- <span class="sr-only" style="color: #1f262f;">Previous</span> -->
-                                    </a>
-                                  </li>
-                                  <li class="page-item"><a class="page-link" href="#" style="background-color: #394552; font-size: 18px; border-color: transparent;color: #fff;">1</a></li>
-                                  <li class="page-item"><a class="page-link" href="#" style="background-color:#394552; font-size: 18px; border-color: transparent;color: #fff;">2</a></li>
-                                  <li class="page-item"><a class="page-link" href="#" style="background-color: #394552; font-size: 18px; border-color: transparent;color: #fff;">3</a></li>
-                                  <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Next">
-                                      <span aria-hidden="true" style="color: #1f262f; font-size: 18px;">&raquo;</span>
-                                      <!-- <span class="sr-only">Next</span> -->
-                                    </a>
-                                  </li>
-                                </ul>
-                              </nav>
+                            <div class="submitReportBtn"
+                                style="width: 50px; height: 40px; display: flex; justify-content: center; align-items: center; margin-top: 10px;">
+                                Write</div>
+                           
                         </div>
                     </div>
 

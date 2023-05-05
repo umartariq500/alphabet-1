@@ -777,14 +777,11 @@ cartWrapper.addEventListener('click', function() {
     col3.style.zIndex = 3
     const betSlip = document.querySelector('.betSlip')
     betSlip.classList.add('betSlipActive')
-
-
     slipCancel.addEventListener('click', () => {
         cartBackdrop.style.display = 'none'
         col3.style.display = ''
         col3.style.zIndex = 1
     })
-
 })
 
 // selectTeam.addEventListener('click', function() {
