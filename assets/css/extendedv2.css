@@ -65,7 +65,7 @@
     .betSlip {
         position: absolute;
         width: 350px;
-        left: 150vh;
+        /* left: 150vh; */
         height: 100%;
         /* right: 0; */
         margin: auto !important;

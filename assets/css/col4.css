@@ -1,0 +1,15 @@
+@media (min-width: 1400px) {
+    .column2 {
+        flex-grow: 3;
+        max-width: 60%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .column4 {
+        flex-grow: 1;
+        display: flex;
+        max-width: 17%;
+
+    }
+}

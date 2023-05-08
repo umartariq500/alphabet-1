@@ -20,6 +20,8 @@ const col3 = document.querySelector('.column3');
 const gamesContainer = document.querySelector('.gamesContainer')
 const slideDeposite = document.querySelector('.slideDeposite')
 const depositeDrop = document.querySelector('.depositeDrop')
+const slipCancel = document.querySelector('.slipCancel')
+
 
 
 
@@ -747,6 +749,13 @@ cartWrapper.addEventListener('click', function() {
     cartBackdrop.style.display = 'flex'
     col3.style.display = 'flex'
     col3.style.zIndex = 3
+    const betSlip = document.querySelector('.betSlip')
+    betSlip.classList.add('betSlipActive')
+    slipCancel.addEventListener('click', () => {
+        cartBackdrop.style.display = 'none'
+        col3.style.display = ''
+        col3.style.zIndex = 1
+    })
 
 })
 
